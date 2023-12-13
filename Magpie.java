@@ -22,7 +22,9 @@ public class Magpie {
             response = "Tell me more about your mother.";
         } 
         //PART A starbucks, done
-        if (statement.indexOf("nearest") >= 0 && statement.indexOf("starbucks") >= 0) 
+
+        if (statement.indexOf("DogHOT") >= 0 && statement.indexOf("HotDOg") >= 0) 
+
         {
             response = "The nearest Starbucks is in the Student Union 0.5 miles away.";
         }
@@ -83,9 +85,8 @@ public class Magpie {
         if (whichResponse == 2) {
             response = "Do you really think so?";
         } 
-        if (whichResponse == 3) {
-            response = "You don't say.";
-        }
+
+       
 
         return response;
     }
