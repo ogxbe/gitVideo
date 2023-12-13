@@ -43,10 +43,7 @@ public class GPACalculator {
             scnr.nextLine();
             System.out.println("Invalid type entered. Please try again");
         }
-            catch(Exception error){
-                System.out.println(error.getMessage());
-                System.out.println("Cannot compute GPA");
-          } //END OF CATCH 1
+      
         
         System.out.print("\nEnter any key to continue entering grade or 'q' to quit: ");
             quitCmd = scnr.next().charAt(0);
@@ -74,9 +71,7 @@ public class GPACalculator {
         if (letterGrade == 'd' || letterGrade == 'D') {
             return 1;
         } 
-        if (letterGrade == 'f' || letterGrade == 'F') {
-            return 0;
-        } else {
+         else {
             return -1;
         }
     }
