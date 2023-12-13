@@ -68,9 +68,7 @@ public class GPACalculator {
         if (letterGrade == 'c' || letterGrade == 'C') {
             return 2;
         }
-        if (letterGrade == 'd' || letterGrade == 'D') {
-            return 1;
-        } 
+       
          else {
             return -1;
         }
